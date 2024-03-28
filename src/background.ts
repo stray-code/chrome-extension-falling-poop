@@ -2,7 +2,7 @@ chrome.runtime.onInstalled.addListener(() => {
   // コンテキストメニューに追加
   chrome.contextMenus.create({
     id: 'poop',
-    title: 'Click here to activate falling poop.',
+    title: 'うんち落下を有効にする',
     contexts: ['all'],
   });
 });
