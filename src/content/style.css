@@ -1,12 +1,14 @@
 .poop-outer {
   position: absolute;
   line-height: 1;
-  translate: -50%, -50%;
+  translate:
+    -50%,
+    -50%;
   transition: all 0.6s cubic-bezier(0.59, 0.4, 0.54, 1.53);
   z-index: 2147483647;
   user-select: none;
 
-  &[data-runaway="true"] {
+  &[data-runaway='true'] {
     transition: all 0.6s;
   }
 
