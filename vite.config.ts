@@ -4,6 +4,7 @@ import { crx, defineManifest } from '@crxjs/vite-plugin';
 const manifest = defineManifest({
   manifest_version: 3,
   name: 'うんち落下',
+  description: 'サイトにうんちを落下させます。',
   version: '1.0.0',
   icons: {
     '16': 'img/icon16.png',
